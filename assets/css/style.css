@@ -6,6 +6,26 @@
     box-sizing: border-box;
 }
 
-header {background-color: lightcoral;}
-main {background-color: lightblue;}
-footer {background-color: orange;}
+/* General styles */ 
+body { 
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    color: #3a3a3a;
+}
+
+
+
+header { 
+    background-color:  lightcoral;}
+
+
+main {
+    background-color: lightblue;
+    flex: 1 0 auto; 
+    /* Make that element take up any surplus to push footer down */  
+}
+
+
+footer {
+    background-color: orange;}
