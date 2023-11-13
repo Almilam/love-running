@@ -76,12 +76,22 @@ nav {
 
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 
 main {
-    background-color: lightblue;
-    flex: 1 0 auto; 
+    background-color: lightblue;    
     /* Make that element take up any surplus to push footer down */  
-}
+    flex: 1 0 auto; 
+margin-top: 47px;}
+
+
 
 
 footer {
