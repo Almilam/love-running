@@ -102,6 +102,11 @@ margin-top: 47px;}
     list-style-type: none; 
 }
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 /* Media query: tablets and larger (768px amd up) */ 
 @media screen and (mid-width: 768px) {
@@ -145,3 +150,5 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+
